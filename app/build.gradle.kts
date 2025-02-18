@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.capgemini.dailyfitness"
+    namespace = "com.capgemini.vitalityfitness"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.capgemini.dailyfitness"
+        applicationId = "com.capgemini.vitalityfitness"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

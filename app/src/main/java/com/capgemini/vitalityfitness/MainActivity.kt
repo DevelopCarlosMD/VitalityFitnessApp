@@ -35,5 +35,8 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, CaloriesActivity::class.java)
         intent.putExtra(TOTAL_STEPS, totalSteps)
         startActivity(intent)
+        cleanStepsInput()
     }
+
+    private fun cleanStepsInput() = (findViewById<EditText>(R.id.edt_steps_number)).setText("")
 }
