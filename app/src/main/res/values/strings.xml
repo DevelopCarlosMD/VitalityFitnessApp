@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VitalityFitness</string>
+    <string name="main_tv_title">Daily Fitness</string>
+    <string name="main_edt_steps_number_hint">Introduce steps</string>
+    <string name="btn_main_calculate_calories">Calculate Calories</string>
+    <string name="burned_calories_title">Burned Calories</string>
+    <string name="default_calories_value">0</string>
+    <string name="calories_burned_message">You burned %1$d calories with %2$d steps</string>
+
+</resources>
